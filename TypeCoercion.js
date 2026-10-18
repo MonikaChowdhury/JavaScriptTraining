@@ -88,6 +88,39 @@ let status1 = "true";
 let statusBool = Boolean(status1)
 console.log(`statusbool is ${statusBool} and type of`, typeof statusBool)
 
+/*
+Problem 10 — Input Field Value
+A Playwright test retrieves a quantity from an input field:
+let quantity = "5";
+The expected quantity is:
+let expectedQuantity = 5;
+*/
+
+let quantity1 = "5"
+let quantityNumber = Number(quantity)
+console.log('quanityNumber is type of', typeof quantity1)
+
+/*
+Problem 11 — Calculate Cart Total
+An e-commerce application provides:
+let price = "799";
+let quantity = "2";
+let discount = "100";
+Calculate:
+(price × quantity) - discount
+*/
+
+let price1 = "799";
+let PriceNumber = Number(price1)
+
+let quantity3 = "2";
+let quantityNum = Number(quantity3)
+
+let discount = "100";
+let discountNum = Number(discount)
+
+console.log(((PriceNumber)*(quantityNum))-(discountNum))
+
 
 
 
